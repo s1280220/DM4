@@ -14,6 +14,10 @@ printf("Die 1: %d\n",a);
 printf("Die 2: %d\n",b);
 total=a+b;
 printf("Total value: %d\n",total);
+  
+// result part
+if(total>7) printf("You won!\n"); 
+  else printf("You lost!\n");
 
 return 0;
 }
