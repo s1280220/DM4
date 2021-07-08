@@ -22,8 +22,8 @@ total=a+b;
 printf("Total value: %d\n",total);
   
 // result part
-if(total>7) printf("You won!\n"); 
-  else printf("You lost!\n");
+if(total>7) printf("%s won!\n",str); 
+  else printf("%s lost!\n",str);
 
 return 0;
 }
